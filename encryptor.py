@@ -178,7 +178,7 @@ class Hacker:
 
     @staticmethod
     def longest_alphabet_length(alphabets: Tuple[str, ...]) -> int:
-        lengths = list(map(len, ALPHABETS))
+        lengths = map(len, ALPHABETS)
         return max(lengths)
 
 
