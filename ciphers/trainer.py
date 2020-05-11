@@ -19,6 +19,5 @@ class Trainer:
         char_sum = max(1, sum(char_counter.values()))
         for key in char_counter:
             char_counter[key] /= char_sum
-        print(char_counter)
         with open(self.mdl, "wb") as model_file:
             pickle.dump(char_counter, model_file)
