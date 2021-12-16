@@ -1,7 +1,5 @@
 # Ciphers
 
-> My first serious project made specifically for the code review
-
 ### This python script can encode and decode Caesar, Vigenere and Vernams ciphers, and hack Caesars cipher
 
 ## Usage
